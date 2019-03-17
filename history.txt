@@ -1,0 +1,459 @@
+    1  git add . -a
+    2  git add . -A
+    3  git commit -m 'loader added'
+    4  git push origin master
+    5  npm run build_qa
+    6  open .
+    7  npm run build_stage
+    8  npm run build_prod
+    9  cd workspace/ng-app/cbt-app/cbt_frontend/
+   10  cd ~
+   11  cd workspace/pem-files/cbt/cbt-live/
+   12  pm2 list
+   13  sudo scp -ri cbt-instance.pem ubuntu@35.154.28.48:/home/ubuntu/.pm2/logs/cbt-testprep-service-live-*
+   14  ls
+   15  sudo scp -ri cbt-instance.pem ubuntu@35.154.28.48:/home/ubuntu/.pm2/logs/
+   16  sudo scp -ri cbt-instance.pem ubuntu@35.154.28.48.compute-1.amazonaws.com:/home/ubuntu/.pm2/logs/cbt-testprep-service-live-*
+   17  scp -ri cbt-instance.pem ubuntu@35.154.28.48.compute-1.amazonaws.com:/home/ubuntu/.pm2/logs/cbt-testprep-service-live-*
+   18  sudo scp -ri cbt-instance.pem ubuntu@35.154.28.48.compute-1.amazonaws.com:/home/ubuntu/.pm2/logs/cbt-testprep-service-live-* .
+   19  sudo scp -ri cbt-instance.pem ubuntu@35.154.28.48:/home/ubuntu/.pm2/logs/cbt-testprep-service-live-* .
+   20  mkdir logs-20-09-2018
+   21  sudo scp -ri cbt-instance.pem ubuntu@35.154.28.48:/home/ubuntu/.pm2/logs/cbt-testprep-service-live-* logs-20-09-2018/
+   22  sudo scp -ri cbt-instance.pem ubuntu@35.154.28.48:/home/ubuntu/.pm2/logs/ logs-20-09-2018/
+   23  sudo scp -ri cbt-instance.pem ubuntu@35.154.28.48:/home/ubuntu/.pm2/logs/ logs-21-09-2018/
+   24  ng g s services/network-connection --sepc=false
+   25  ng g s services/network-connection/network-connection --sepc=false
+   26  ng g s services/network-connection/network-connection --spec=false
+   27  npm run build_dev
+   28  ng g c dialogs/forgot-password --spec=false
+   29  git status
+   30  git commit -m 'no internet connection issues exit test, exit section, next and back question help done'
+   31  git push origin sudeep_feedback_3_bug_fixes
+   32  git commit -m 'exit review and pause review option no internet connection show details and next and back question internet connectio and timer pause is not internet connection done'
+   33  git add src/environments/
+   34  git add src/app/login/
+   35  git add src/app/models/
+   36  git statis
+   37  git add src/app/app.module.ts
+   38  git add src/app/dialogs/forgot-password/
+   39  git add src/app/modules/
+   40  git src/app/services/
+   41  git add src/app/services/
+   42  git commit -m 'forgot password workflow done'
+   43  git add src/app/login/login.component.ts
+   44  git commit -m 'Duplicate identifier resolve4 and dns remove'
+   45  git add src/app/dialogs/review-section-question/review-section-question.component.html
+   46  git commit -m 'Highlight (make black bold) current question in intest review'
+   47  cd ..
+   48  cd cbt-fe-stage/
+   49  git commit -m 'net off issues fixed'
+   50  git commit -m 'forgot password done and hilight question done'
+   51  git branch
+   52  git pull origin development
+   53  git stash
+   54  git commit -m 'confilct resolved'
+   55  git commit -m 'conflict resolved'
+   56  cd .
+   57  cd cbt-fe-dev/
+   58  git comnit -m 'options changes'
+   59  git commit -m 'options changes'
+   60  git push origin master 
+   61  cd cbt-fe-prod/
+   62  l
+   63  git commit -m 'cbt test issues fixed'
+   64  npm install --save-dev @types/google.analytics
+   65  git status 
+   66  git commit -m 'question overlapping issues fixed'
+   67  cd cbt-fe-qa/
+   68  git commit -m 'question status option done'
+   69  sudo git pull origin master
+   70  sudo git pull origin developmenet
+   71  git pull origin developmenet
+   72  git add src/app/common/readonly-tiny-editor/readonly-tiny-editor.component.ts
+   73  git add src/app/common/tiny-editor/tiny-editor.component.ts
+   74  git commit -m 'browsers spell check'
+   75  git add src/app/cbt-modules/cbt/cbt-test-container/cbt-test-container.component.ts
+   76  git add src/app/cbt-modules/cbt/cbt-test-review/cbt-test-review.component.ts
+   77  git commit -m 'question post issues done'
+   78  git add src/app/modules/app-routing.module.ts
+   79  git commit -m 'app load performance implementd '
+   80  git commit -m 'ga support added for features'
+   81  open ,
+   82  open . 
+   83  git commit -m 'options'
+   84  nvm -v
+   85  nvm --v
+   86  nvm --version
+   87  node -v
+   88  git commit -m 'base url with ip change to domain name'
+   89  git add src/app/models/cbt-test-constant.model.ts
+   90  git commit -m 'table option added in editor and test instructions updated'
+   91  git commit -m 'new line added in UI'
+   92  git commit -m 'review dailog option dine'
+   93  git commit -m 'popup message done'
+   94  git commit -m 'review issues on next fixed'
+   95  git commit -m 'cache free build command updated'
+   96  cd 
+   97  git commit -m 'modarator option done'
+   98  git commit -m 'question image added in html'
+   99  git commit -m 'question added modroator access added'
+  100   git add . -A
+  101  git commit -m 'report question and moderator options done'
+  102  git commit -m 'report question error message'
+  103  git commit -m 'comming soon pages added'
+  104  ls /usr -ltra
+  105  docker-compose up
+  106  git commit -m 'confilcts solved'
+  107  git checkout branch development
+  108  git checkout development
+  109  git checkout -b cbt_service_release
+  110  git commit -m 'error handeling for report questions'
+  111  git push origin cbt_service_release
+  112  ng g c /common/comming-soon --spec=false
+  113  git commit -m 'commming soon page added for released'
+  114  docker --version
+  115  docker-compose --version
+  116  docker-machine --version
+  117  docker run hello-world
+  118  docker run --help
+  119  docker container ls
+  120  docker images
+  121  docker images -a
+  122  docker rm <none>
+  123  docker rm '<none>'
+  124  docker rm c3e723c29795
+  125  npm run build_prof
+  126  docker-compose up dev
+  127  docker-compose up build_dev
+  128  docker ps
+  129  docker ps --all
+  130  Docker Daemon
+  131  Docker Client
+  132  sudo ssh -i cbt-instance.pem ubuntu@35.154.28.48
+  133  npm run
+  134  npm start
+  135  cd workspace/ng-app/cbt-app/cbt_frontend/
+  136  npm start
+  137  npm start
+  138  npm start
+  139  git status
+  140  git status
+  141  git add  src/environments/
+  142  git status
+  143  git commit -m 'upload excel endpoint updated'
+  144  git push origin cbt_service_release
+  145  git status
+  146  git add src/app/models/urls.model.ts
+  147  git add src/app/services/dialog-service.service.ts
+  148  git add src/app/services/shared/shared.service.ts
+  149  git add src/app/services/sop/sop.service.ts
+  150  git status
+  151  git status
+  152  git add src/app/models/popup-messages.model.ts
+  153  git add src/app/cbt-modules/student/student-add/student-add.component.html
+  154  git add src/app/cbt-modules/student/student-add/student-add.component.ts
+  155  git status
+  156  git commit -m 'upload excel sheet ui and API done'
+  157  git push origin master
+  158  git push origin cbt_service_release
+  159  git status
+  160  git status
+  161  git status
+  162  git status
+  163  git add src/app/services/calendar/calendar.service.ts
+  164  git add src/app/common/mini-calender/mini-calender.component.ts
+  165  git add src/app/common/appointment-calender/appointment-calender.component.ts
+  166  git commit -m 'calender service configer'
+  167  git push origin master
+  168  git push origin cbt_service_release
+  169  git status
+  170  cd ..
+  171  cd cbt-fe-prod/
+  172  open .
+  173  git status
+  174  git add . -A
+  175  git commit -m 'package association done'
+  176  git push origin master
+  177  open .
+  178  git status 
+  179  git add . -A
+  180  git commit -m 'end pint changed '
+  181  git push origin master 
+  182  open .
+  183  git status
+  184  git add . -A
+  185  git commit -m 'message change'
+  186  git push origin master
+  187  open .
+  188  cd workspace/ng-app/cbt-app/cbt_frontend/
+  189  npm install -g @angular/cli
+  190  npm install -g typescript
+  191  nvm install --lts
+  192  nvm install --lts
+  193  npm start
+  194  cd workspace/ng-app/cbt-app/cbt_frontend/
+  195  npm start
+  196  python -v
+  197  cd workspace/ng-app/cbt-app/cbt_frontend/
+  198  npm start
+  199  python -V
+  200  cd ~
+  201  cd workspace/pem-files/cbt/cbt-live/
+  202  sudo ssh -i cbt-instance.pem ubuntu@35.154.28.48
+  203  cd workspace/pem-files/cbt/cbt-live/
+  204  cd ~/cd workspace/pem-files/cbt/cbt-live/
+  205  cd ~/workspace/pem-files/cbt/cbt-live/
+  206  sudo ssh -i cbt-instance.pem ubuntu@35.154.28.48
+  207  cd /Library/WebServer/
+  208  ls
+  209  open .
+  210  ls
+  211  cd /Library/WebServer/Documents/
+  212  ls
+  213  open .
+  214  cd ..
+  215  open ,
+  216  open .
+  217  sudo apachectl start
+  218  apachectl start
+  219  sudo apachectl start
+  220  cd /etc/apache2
+  221  ls
+  222  sudo chmod 755 httpd.conf
+  223  vim httpd.conf
+  224  sudo vim httpd.conf
+  225  sudo apachectl start
+  226  sudo apachectl restart
+  227  ls
+  228  ls
+  229  cd workspace/ng-app/cbt-app/cbt_frontend/
+  230  npm start
+  231  brew install mysql
+  232  brew install postgresql
+  233  brew upgrade mysql
+  234  brew update
+  235  brew doctor
+  236  vim ~/.bash_profile 
+  237  source ~/.bash_profile 
+  238  vim ~/.bash_profile 
+  239  source ~/.bash_profile 
+  240  brew update
+  241  brew doctor
+  242  brew install postgresql
+  243  xcode-select --install
+  244  brew update
+  245  brew doctor
+  246  brew install postgresql
+  247  brew services start postgresql
+  248  cd /Library/WebServer/
+  249  ls
+  250  open .
+  251  sudo apachectl restart
+  252  brew install php@7.2
+  253  vi /usr/local/etc/httpd/httpd.conf 
+  254  cd /etc/apache2/
+  255  ls
+  256  sudo vim httpd.conf
+  257  sudo apachectl -k restart
+  258  sudo vim httpd.conf
+  259  sudo apachectl -k restart
+  260  sudo vim httpd.conf
+  261  sudo apachectl -k restart
+  262  brew install php-pgsql
+  263  rm /usr/local/var/postgres/postmaster.pid
+  264  ls
+  265  brew services stop postgresql
+  266  rm /usr/local/var/postgres/postmaster.pid
+  267  brew services start postgresql
+  268  brew postgresql-upgrade-database
+  269  ls
+  270  sudo vim postgresql.conf 
+  271  brew services restart postgresql
+  272  brew install php70-pdo-pgsql
+  273  sudo apachectl -k restart
+  274  cd ~
+  275  cd /etc/apache2/
+  276  ls
+  277  cd /etc/apache2/extra/
+  278  ls
+  279  cd /etc/apache2/
+  280  cd /etc/apache2/other/
+  281  ls
+  282  cd /etc/apache2/
+  283  cd /etc/apache2/original/
+  284  ls
+  285  cd /etc/apache2/original/extra/
+  286  ls
+  287  cd /etc/apache2/users/
+  288  ls
+  289  cd ~
+  290  psql
+  291  sudo su postgres
+  292  cd /usr/local/var/postgres/
+  293  ls
+  294  sudo vim pg_hba.conf 
+  295  brew  services postgres restart
+  296  brew  services postgresql restart
+  297  brew services
+  298  brew services list
+  299  brew services restart postgresql
+  300  psql
+  301  sudo su postgres
+  302  sudo su - postgres
+  303  sudo -su  postgres
+  304  psql postgres
+  305  pip install djangorestframework
+  306  pip install markdown
+  307  pip install django-filter 
+  308  sudo pip install MarkupSafe
+  309  pip install MarkupSafe
+  310  sudo pip install argparse
+  311  pip install argparse
+  312  pip install jsonfield
+  313  pip install requests
+  314  pip install uWSGI
+  315  pip install validate-email
+  316  pip install requests
+  317  cd workspace/ng-app/cbt-app/cbt_frontend/
+  318  npm start
+  319  python manage.py makemigrations
+  320  python manage.py makemigrationspython manage.py makemigrations
+  321  pip install psycopg2
+  322  python manage.py 
+  323  python manage.py migrate
+  324  python manage.py makemigrations
+  325  pip install psycopg2-binary
+  326  pip install psycopg2-binary
+  327  python manage.py makemigrations
+  328  python manage.py makemigrations
+  329  python manage.py makemigrations
+  330  python manage.py migrate
+  331  python manage.py makemigrations demo_users
+  332  python manage.py makemigrations login
+  333  python manage.py migrate login
+  334  python manage.py makemigrations login1
+  335  python manage.py makemigrations login
+  336  python manage.py makemigrations login
+  337  python manage.py migrate login
+  338  python manage.py makemigrations login
+  339  python manage.py migrate login
+  340  python manage.py migrate login
+  341  python manage.py migrate demoapp
+  342  python manage.py makemigrations login
+  343  python manage.py makemigrations
+  344  python manage.py makemigrations login
+  345  python manage.py makemigrations demoapp
+  346  python manage.py makemigrations demoapp
+  347  python manage.py makemigrations demoapp
+  348  pip install South
+  349  syncdb
+  350  python manage.py makemigrations
+  351  python manage.py migrate
+  352  python manage.py migrate
+  353  python manage.py makemigrations
+  354  python manage.py makemigrations --fake
+  355  python manage.py syncdb
+  356  python manage.py syncdb
+  357  ./manage.py migrate
+  358  cd workspace/ng-app/cbt-app/cbt_frontend/
+  359  npm start
+  360  cd /usr/local/bin
+  361  ls
+  362  ln -s ../../../Library/Frameworks/Python.framework/Versions/3.7/bin/pip pip
+  363  touch anyjson==0.3.3
+  364  appdirs==1.4.3
+  365  certifi==2018.10.15
+  366  chardet==3.0.4
+  367  dj-database-url==0.5.0
+  368  Django==1.11.16
+  369  django-crispy-forms==1.7.2
+  370  django-filter==2.0.0
+  371  django-heroku==0.3.1
+  372  djangorestframework==3.8.2
+  373  gunicorn==19.9.0
+  374  idna==2.7
+  375  jsonfield==2.0.2
+  376  Markdown==3.0.1
+  377  MarkupSafe==1.0
+  378  olefile==0.46
+  379  packaging==18.0
+  380  Pillow==5.3.0
+  381  psycopg2==2.7.5
+  382  psycopg2-binary==2.7.5
+  383  pyparsing==2.2.2
+  384  python-dateutil==2.7.3
+  385  pytz==2018.5
+  386  requests==2.19.1
+  387  six==1.11.0
+  388  South==1.0.2
+  389  urllib3==1.23
+  390  uWSGI==2.0.17.1
+  391  validate-email==1.3
+  392  whitenoise==4.1
+  393  touch requirements.txt
+  394  touch runtime.txt
+  395  pip freeze > requirements.txt
+  396  pip install --upgrade pip
+  397  pip freeze > requirements.txt
+  398  pip freeze > requirements.txt
+  399  python manage.py makemigrations
+  400  python manage.py makemigrations ipratik
+  401  python manage.py maigrate
+  402  python manage.py migrate?
+  403  python manage.py migrate
+  404  python manage.py migrate
+  405  heroku login
+  406  touch Procfile
+  407  heroku create ipratik-heroku-idemoapp
+  408  git init
+  409  heroku git:remote -a ipratik-heroku-idemoapp
+  410  heroku addons:create heroku-postgresql:hobby-dev
+  411  git status
+  412  git status
+  413  touch .gitignore
+  414  open .
+  415  git add .
+  416  git status
+  417  git commit -m "Initial commit"
+  418  git push heroku master
+  419  git status
+  420  git add .
+  421  git commit -am 'runtime added'
+  422  git config user.name "Pratik Karanje"
+  423  git config user.email "pratik.karanje@iauro.com"
+  424  git commit -am 'runtime added'
+  425  git add .
+  426  git commit -am 'runtime added'
+  427  git push heroku master
+  428  python manage.py collectstatic --noinput
+  429  heroku config:set DISABLE_COLLECTSTATIC=1
+  430  git status
+  431  git push heroku master
+  432  heroku open
+  433  heroku logs --tail
+  434  git status
+  435  git add .
+  436  git commit -m 'django_heroku added'
+  437  git push heroku master
+  438  heroku open
+  439  heroku logs --tail
+  440  git status
+  441  git add . 
+  442  git commit -m 'setting'
+  443  git push heroku master
+  444  heroku run python manage.py migrate
+  445  git add . 
+  446  git commit -m 'setting'
+  447  git push heroku master
+  448  heroku run python manage.py migrate
+  449  heroku run python manage.py runserver
+  450  heroku open
+  451  heroku run python manage.py runserver
+  452  heroku ps:scale web=1
+  453  heroku ps
+  454  git add . 
+  455  git commit -m 'procfilechanges'
+  456  git push heroku master
+  457  heroku ps
+  458  history
+  459  history > history.txt

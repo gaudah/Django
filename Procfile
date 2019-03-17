@@ -1,0 +1,1 @@
+web: gunicorn idemoapp.wsgi --log-file -
